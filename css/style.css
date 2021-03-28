@@ -73,11 +73,12 @@ main .content {
    width: 25%;
    background-color:#e8ffcd;
    border-radius: 5px;
+   color: black;
+   text-align: left;
+   display: inline-block;
    /*padding: 10px;
    margin: 5px;
-   color: black;
-   display: inline-block;
-   text-align: left;*/
+   */
 }
 
 main .content img {
