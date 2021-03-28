@@ -5,25 +5,61 @@
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
+  
+  main {
+    padding: 160px 16px;
+  }
+  
   /* Header */
+  .container {
+    margin: 0 16px;
+  }
   header nav .menu {
     display: none;
     margin-right: 50px;
   }
   header nav .menu-icon {
     display: inline-block;
+    font-size: 32px;
   }
-  .menu-icon:active .overlay {
+  
+  
+  /* Card */
+  .top-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin: 0 16px; */
+  }
+
+  main .content {
+    /* height: 400px; */
     width: 100%;
-    height: 100%;
-    /*left: 0;
-    position: absolute;
-    bottom: 0;
-    left: 100%;
-    right: 0;
-    background-color: #008CBA;
-    overflow: hidden;
-    width: 0;
-    transition: .5s ease;*/
+  }
+
+  main .content:nth-of-type(2n) {
+    margin: 32px 0;
+  }
+
+  /* footer */
+  footer .container {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .footer-left,
+  .footer-right {
+    width: 100%;
+  }
+  .footer-left {
+    text-align: center;
+  }
+  .footer-right {
+    margin-top: 32px;
+  }
+  .footer-right li {
+    line-height: 35px;
+    text-align: center;
   }
 }
