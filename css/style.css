@@ -83,3 +83,27 @@ main .content img {
    max-height: 100%;
    background-size: cover;
 }
+
+/* footer */
+footer {
+	display: flex;
+	height: 90px;
+	background-color: #27283D;
+	color: whitesmoke;
+	padding: 30px;
+
+}
+
+footer .footer-right {
+	margin-left: auto;
+}
+
+.footer-right li {
+	list-style: none;
+	line-height: 25px;
+}
+
+.footer-right a {
+	text-decoration: none;
+	color: rgb(255, 75, 75);
+}
