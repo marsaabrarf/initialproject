@@ -20,3 +20,14 @@ header .logo img {
   height: 80px;
   padding-top: 10px;
 }
+
+header .logo img:hover {
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+header .container nav {
+	float: right;
+	height: 100%;
+	margin-top: 40px;
+}
