@@ -76,3 +76,7 @@ main .content {
    text-align: left;
    border-radius: 5px
 }
+
+main .content img {
+   width: 100%;
+}
