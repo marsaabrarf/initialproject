@@ -44,6 +44,11 @@ header .menu:hover {
  opacity: 1;
 }
 
+header .menu:active {
+ position: relative;
+ top: 10px;
+}
+
 main {
   padding-top:150px;
   background-color: black;
