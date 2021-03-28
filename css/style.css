@@ -71,6 +71,7 @@ main .content {
    width: 25%;
    padding: 20px;
    background-color:#e8ffcd;
+   color: black;
    margin : 5px;
    display: inline-block;
    text-align: left;
