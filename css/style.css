@@ -55,7 +55,7 @@ main {
 main section {
   background-color: white;
   width: 1170px;
-  text-align: center;
+  margin: auto 0;
 }
 
 main section h1 {
