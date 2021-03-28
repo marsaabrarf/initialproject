@@ -71,7 +71,6 @@ main section h1:hover {
 main .content {
    height: 400px;
    width: 25%;
-   background-color:#e8ffcd;
    border-radius: 5px;
    color: black;
    text-align: left;
