@@ -56,5 +56,4 @@ main section h1 {
   transition: opacity 1s;
 }
 main section h1::after {
-  opacity: 1;
 }
