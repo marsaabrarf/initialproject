@@ -34,7 +34,7 @@ header .container nav {
 
 header nav .menu {
   color: inherit;
-  text-weight: bold;
+  text-decoration: none;
   opacity: 0.5;
   margin: auto 30px;
   transition: 1s;
