@@ -40,6 +40,10 @@ header nav .menu {
   transition: 1s;
 }
 
+header nav .menu-icon {
+  display:none;
+}
+
 header .menu:hover {
  opacity: 1;
 }
