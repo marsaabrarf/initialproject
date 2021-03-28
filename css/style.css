@@ -67,7 +67,7 @@ main section h1:hover {
 }
 
 main .content {
-   height: auto;
+   height: 100px;
    width: 25%;
    padding: 20px;
    background-color:#e8ffcd;
