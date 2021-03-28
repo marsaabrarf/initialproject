@@ -8,6 +8,7 @@
   /* Header */
   header nav .menu {
     display: none;
+    margin-right: 50px;
   }
    .menu-icon {
     display: block;
