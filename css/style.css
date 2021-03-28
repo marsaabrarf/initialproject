@@ -10,26 +10,27 @@ header {
   position: fixed;
 }
 
-header .container {
-	width: 1170px;
-	margin: 0 auto;
+.container {
+  height: inherit;
+  margin: 0 32px;
 }
 
 header .logo img {
   float: left;
-  height: 80px;
-  padding-top: 10px;
+  height: 60px;
+  padding: 20px 0;
+  transition: all 0.25s;
 }
 
 header .logo img:hover {
-	cursor: pointer;
-	opacity: 0.8;
+  cursor: pointer;
+  opacity: 0.8;
 }
 
 header .container nav {
-	float: right;
-	height: 100%;
-	margin-top: 40px;
+  float: right;
+  height: 100%;
+  margin: 40px 0;
 }
 
 header nav .menu {
@@ -37,81 +38,83 @@ header nav .menu {
   text-decoration: none;
   opacity: 0.5;
   margin: auto 30px;
-  transition: 1s;
-}
-
-header nav .menu-icon {
-  display:none;
+  transition: 0.5s;
 }
 
 header .menu:hover {
- opacity: 1;
-}
-
-main {
-  padding-top:120px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  height: auto;
-}
-
-main section {
-  width: 1170px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-main section h1 {
-  transition: opacity 1s;
   opacity: 1;
 }
 
-main section h1:hover {
-  opacity: 0.7;
+header nav .menu-icon {
+  display: none;
+}
+
+main {
+  padding: 160px 32px;
+  text-align: center;
+}
+
+.container-card {
+  padding: 0 16px;
+}
+
+main .top-card {
+  width: 100%;
+  margin: 48px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 main .content {
-   height: 400px;
-   width: 25%;
-   background-color:#e8ffcd;
-   border-radius: 5px;
-   color: black;
-   text-align: left;
-   display: inline-block;
-   padding: 10px;
+  height: 400px;
+  width: 30%;
+  background-color: #e8ffcd;
+  border-radius: 10px;
+  color: black;
+  text-align: left;
+}
+
+.content:nth-of-type(2n) {
+  margin: 0 16px;
 }
 
 main .content img {
-   max-width: 100%;
-   max-height: 100%;
-   background-size: cover;
+  width: 100%;
+  max-height: 175px;
+  border-radius: 10px 10px 0 0;
 }
 
 /* footer */
 footer {
-	display: flex;
-	height: 90px;
-	background-color: #27283D;
-	color: whitesmoke;
-	padding: 30px;
-
+  width: 100%;
+  background-color: rgba(2, 22, 72, 1);
+  color: #fff;
+  padding: 56px 0;
 }
 
-footer .footer-left {
-	float: left;
+footer .container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
 }
 
-footer .footer-right {
-	margin-left: auto;
+.footer-left,
+.footer-right {
+  width: 50%;
+}
+
+.footer-logo {
+  margin: 0;
 }
 
 .footer-right li {
-	list-style: none;
-	line-height: 25px;
+  line-height: 35px;
+  text-align: right;
 }
 
 .footer-right a {
-	text-decoration: none;
-	color: rgb(255, 75, 75);
+  text-decoration: none;
+  color: rgb(255, 75, 75);
 }
