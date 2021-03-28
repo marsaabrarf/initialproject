@@ -13,7 +13,7 @@
    .menu-icon {
     display: block;
   }
-  .menu-icon:active {
+  .menu-icon:active .overlay {
     width: 100%;
     left: 0;
     position: absolute;
