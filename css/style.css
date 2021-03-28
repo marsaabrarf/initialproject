@@ -72,6 +72,7 @@ main .content {
    height: 300px;
    width: 25%;
    padding: 10px;
+   margin: 5px;
    background-color:#e8ffcd;
    color: black;
    display: inline-block;
