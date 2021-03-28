@@ -51,3 +51,7 @@ main {
   text-align: center;
   height: auto;
 }
+
+main section h1 {
+  transition: 1s;
+}
