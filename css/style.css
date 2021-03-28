@@ -52,8 +52,10 @@ main {
   height: auto;
 }
 
-main section h1 {
+main section h1::before {
+  opacity: 0;
   transition: opacity 1s;
 }
-main section h1::after {
+main section h1:default {
+  opacity: 1;
 }
