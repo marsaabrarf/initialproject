@@ -5,7 +5,11 @@
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
+  /* Header */
   header nav .menu {
     display: none;
+  }
+   .menu-icon {
+    display: block;
   }
 }
