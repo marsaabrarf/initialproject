@@ -38,3 +38,11 @@ header nav .menu {
   opacity: 0.7;
   margin: auto 30px;
 }
+
+header .menu:hover {
+ opacity: 1;
+}
+
+main {
+  padding-top:150px;
+}
