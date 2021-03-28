@@ -45,4 +45,7 @@ header .menu:hover {
 
 main {
   padding-top:150px;
+  background-color: black;
+  text-align: center;
+  height: auto;
 }
