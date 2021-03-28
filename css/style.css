@@ -9,3 +9,9 @@ header {
   background-color: rgba(2, 22, 72, 0.8);
   position: fixed;
 }
+
+header .logo img {
+  float: left;
+  height: 80px;
+  padding-top: 10px;
+}
