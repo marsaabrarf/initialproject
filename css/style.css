@@ -94,8 +94,8 @@ footer {
 
 }
 
-footer .footer-left {
-	background-color : salmon;
+.footer-left h2{
+	line-height : 90px;
 }
 
 footer .footer-right {
