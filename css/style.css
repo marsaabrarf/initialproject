@@ -53,5 +53,5 @@ main {
 }
 
 main section h1 {
-  transition: opacity 1s;
+  transition: width 1s;
 }
