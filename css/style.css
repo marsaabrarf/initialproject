@@ -52,6 +52,10 @@ main {
   height: auto;
 }
 
+main section {
+  width: 1170px;
+}
+
 main section h1 {
   transition: opacity 1s;
   opacity: 1;
