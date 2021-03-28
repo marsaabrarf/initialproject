@@ -52,11 +52,11 @@ main {
   height: auto;
 }
 
-main section h1 {
+main section h1::before {
   opacity: 0;
   transition: opacity 1s;
 }
 
-main section h1:default {
+main section h1::after {
   opacity: 1;
 }
