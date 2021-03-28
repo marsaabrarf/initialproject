@@ -56,6 +56,6 @@ main section h1 {
   transition: opacity 1s;
   opacity: 0;
 }
-main section h1:default {
+main section h1:active {
   opacity: 1;
 }
