@@ -42,6 +42,7 @@ header nav .menu {
 
 header .menu:hover {
  opacity: 1;
+ text-weight: 800;
 }
 
 main {
