@@ -53,9 +53,9 @@ main {
 }
 
 main section {
-  background-color: white;
+  background-color: yellow;
   width: 1170px;
-  margin: auto 0;
+  margin: 0 auto;
 }
 
 main section h1 {
