@@ -67,9 +67,9 @@ main section h1:hover {
 }
 
 main .content {
-   height: 100px;
+   height: auto;
    width: 25%;
-   padding: 20px;
+   padding: 10px;
    background-color:#e8ffcd;
    color: black;
    margin : 5px;
