@@ -71,13 +71,13 @@ main section h1:hover {
 main .content {
    height: 400px;
    width: 25%;
+   background-color:#e8ffcd;
+   border-radius: 5px;
    /*padding: 10px;
    margin: 5px;
-   background-color:#e8ffcd;
    color: black;
    display: inline-block;
    text-align: left;*/
-   border-radius: 5px
 }
 
 main .content img {
