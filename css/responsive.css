@@ -10,7 +10,7 @@
     display: none;
     margin-right: 50px;
   }
-   .menu-icon {
+  header nav .menu-icon {
     display: block;
   }
   .menu-icon:active .overlay {
