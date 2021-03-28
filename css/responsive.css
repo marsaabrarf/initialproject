@@ -11,7 +11,7 @@
     margin-right: 50px;
   }
   header nav .menu-icon {
-    display: block;
+    display: inline-block;
   }
   .menu-icon:active .overlay {
     width: 100%;
