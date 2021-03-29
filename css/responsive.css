@@ -1,6 +1,27 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
-  
+  header nav .menu {
+    display: none;
+    margin-right: 50px;
+  }
+  header nav .menu-icon {
+    display: inline-block;
+    font-size: 32px;
+  }
+  /* Card */
+  .top-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  main .content {
+    /* height: 400px; */
+    width: 40%;
+  }
+  main .content:nth-of-type(2n) {
+    margin: 32px 0;
+  }
 }
 
 /* Untuk Smartphone */
@@ -23,7 +44,6 @@
     font-size: 32px;
   }
   
-  
   /* Card */
   .top-card {
     display: flex;
@@ -36,6 +56,7 @@
   main .content {
     /* height: 400px; */
     width: 100%;
+    max-width: 350px;
   }
 
   main .content:nth-of-type(2n) {
